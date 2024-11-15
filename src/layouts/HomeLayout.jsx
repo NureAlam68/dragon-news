@@ -3,6 +3,7 @@ import Header from "../components/Header";
 import LatestNews from "../components/LatestNews";
 import Navbar from "../components/Navbar";
 import LeftNavbar from "../components/LeftNavbar";
+import RightNav from "../components/RightNav";
 
 const HomeLayout = () => {
     return (
@@ -24,7 +25,9 @@ const HomeLayout = () => {
                     <LeftNavbar></LeftNavbar>
                 </aside>
                 <section className="col-span-6">Dragon News Home</section>
-                <aside className="col-span-3">Login</aside>
+                <aside className="col-span-3">
+                    <RightNav></RightNav>
+                </aside>
             </main>
         </div>
     );
